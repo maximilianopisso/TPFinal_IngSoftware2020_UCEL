@@ -38,9 +38,8 @@ Contamos con los siguientes ambientes de trabajo:
 * LOCAL: ambiente de trabajo en pc personales de cada team member
 
 # Tema
-* [Start Bootstrap - Stylish Portfolio](https://startbootstrap.com/themes/stylish-portfolio/)
-* [Stylish Portfolio](https://startbootstrap.com/themes/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
+* [Bootstrap Made - My Portfolio](https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/)
+* [My Portfolio - Portfolio Website Template](https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/) is a responsive, portfolio theme for [Bootstrap](https://getbootstrap.com/) created by [Bootstrap Made](https://bootstrapmade.com/). MyPortfolio is a clean and lightweight portfolio website template. With a minimal design MyPortfolio is perfect to create beautiful online portfolios.
 
 # Links Útiles
-* [Fuentes del template original]
 * [How to Make a Simple Website for Beginners (Bootstrap themes, GitHub pages)](https://www.youtube.com/watch?v=dKDMt04wZrk&feature=youtu.be&ab_channel=CassidyMorgan)
