@@ -1,2 +1,39 @@
 # TPFinal_IngSoftware2020_UCEL
 Repositorio para la creacion de la Web de Aportes Tecso, como entrega de trabajo final de la catedra de Ingenieria de Software 2020 de UCEL 
+
+# PreRequisitos
+* [Git](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/set-up-git#setting-up-git). Check on Git Bash `git --version`
+* [GitHub Desktop](https://desktop.github.com/)
+* [NodeJs](https://nodejs.org/en/download/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+
+# Tecnologías
+* [GitHub Page](https://pages.github.com/)
+* [Bootstrap](https://getbootstrap.com/)
+
+
+## Descarga e instalación
+
+* Clone the repo: `git clone https://github.com/`
+
+
+## Uso
+
+### Básico
+
+Después de la descarga, simplemente edite los archivos HTML y CSS incluidos con la plantilla en su editor de texto favorito o con [Visual Studio Code](https://code.visualstudio.com/) para realizar cambios. Estos son los únicos archivos de los que debe preocuparse, ¡puede ignorar todo lo demás! Para obtener una vista previa de los cambios que realiza en el código, puede abrir el archivo `index.html` 
+en su navegador web.
+
+### Avanzado
+Después de la instalación, abra una nueva terminar dentro de Visual Studio Code, ejecute `npm install`, luego ejecute ` npm audit fix` y luego ejecute ` npm start`, que abrirá una vista previa de la plantilla en su navegador predeterminado, observe los cambios en los archivos de la plantilla principal y vuelva a cargar el navegador en vivo cuando se guarden los cambios. Puede ver el archivo `gulpfile.js` para ver qué tareas están incluidas en el entorno de desarrollo.
+
+# Ambientes
+* Producción: 
+
+# Tema
+* [Start Bootstrap - Stylish Portfolio](https://startbootstrap.com/themes/stylish-portfolio/)
+* [Stylish Portfolio](https://startbootstrap.com/themes/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
+
+# Links Útiles
+* [Fuentes del template original]
+* [How to Make a Simple Website for Beginners (Bootstrap themes, GitHub pages)](https://www.youtube.com/watch?v=dKDMt04wZrk&feature=youtu.be&ab_channel=CassidyMorgan)
