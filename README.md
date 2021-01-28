@@ -31,11 +31,11 @@ Después de la instalación, abra una nueva terminar dentro de Visual Studio Cod
 
 Contamos con los siguientes ambientes de trabajo;
 
-*PRODUCCIÓN: https://maximilianopisso.github.io/AportesTecso/
+* PRODUCCIÓN: https://maximilianopisso.github.io/AportesTecso/
 
-*TEST: https://maximilianopisso.github.io/TPFinal_IngSoftware2020_UCEL/
+* TEST: https://maximilianopisso.github.io/TPFinal_IngSoftware2020_UCEL/
 
-*LOCAL: ambiente de trabajo en pc personales de cada team member
+* LOCAL: ambiente de trabajo en pc personales de cada team member
 
 # Tema
 * [Start Bootstrap - Stylish Portfolio](https://startbootstrap.com/themes/stylish-portfolio/)
