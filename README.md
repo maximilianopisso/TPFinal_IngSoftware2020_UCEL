@@ -14,7 +14,7 @@ Repositorio para la creacion de la Web de Aportes Tecso, como entrega de trabajo
 
 ## Descarga e instalación
 
-* Clone the repo: `git clone https://github.com/`
+* Clone the repo: `git clone https://github.com/maximilianopisso/TPFinal_IngSoftware2020_UCEL.git`
 
 
 ## Uso
