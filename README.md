@@ -29,7 +29,7 @@ Después de la instalación, abra una nueva terminar dentro de Visual Studio Cod
 
 # Ambientes
 
-Contamos con los siguientes ambientes de trabajo;
+Contamos con los siguientes ambientes de trabajo:
 
 * PRODUCCIÓN: https://maximilianopisso.github.io/AportesTecso/
 
