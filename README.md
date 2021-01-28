@@ -28,7 +28,14 @@ en su navegador web.
 Después de la instalación, abra una nueva terminar dentro de Visual Studio Code, ejecute `npm install`, luego ejecute ` npm audit fix` y luego ejecute ` npm start`, que abrirá una vista previa de la plantilla en su navegador predeterminado, observe los cambios en los archivos de la plantilla principal y vuelva a cargar el navegador en vivo cuando se guarden los cambios. Puede ver el archivo `gulpfile.js` para ver qué tareas están incluidas en el entorno de desarrollo.
 
 # Ambientes
-* Producción: https://maximilianopisso.github.io/TPFinal_IngSoftware2020_UCEL/
+
+Contamos con los siguientes ambientes de trabajo:
+
+* PRODUCCIÓN: https://maximilianopisso.github.io/AportesTecso/
+
+* TEST: https://maximilianopisso.github.io/TPFinal_IngSoftware2020_UCEL/
+
+* LOCAL: ambiente de trabajo en pc personales de cada team member
 
 # Tema
 * [Bootstrap Made - My Portfolio](https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/)
