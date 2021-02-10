@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: 'Raleway', monospace;
   color: #0d1e2d;
 }
 
@@ -22,7 +22,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .section {
@@ -482,13 +482,14 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .social a {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   background: #f8f9fa;
   position: relative;
   text-align: center;
   color: #0d1e2d;
+  margin: 15px;
 }
 
 .social a span {
