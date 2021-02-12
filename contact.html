@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>MyPortfolio Bootstrap Template - Contact</title>
+  <title>Sitio de Aportes Comunitarios - Tecso v1.1.0</title>
+
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -15,7 +16,8 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -32,6 +34,18 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    #mail{
+      color:#0D1E2D
+    }
+    #mail:hover{
+        color:#F08632;
+    }
+    
+    #logos:hover{
+      color:#F08632;
+    }
+  </style>
 </head>
 
 <body>
@@ -41,16 +55,25 @@
                 <div class="col-lg-12">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li><a href="./pages.html">Pages</a>
+
+							<li><a href="https://tecso.coop/"><img src="icono_tecso.png" width="150" height="50" /></a></li>
+   
+                            <li><a href="./index.html">Inicio</a></li>
+                            <li><a href="./subsection1.html">Aportes</a>
+
+
+
                                 <ul class="dropdown">
-                                    <li><a href="./subsection1.html">Subsection 1 </a></li>
-                                    <li><a href="./subsection2.html">Subsection 2</a></li>
-                                    <li><a href="./subsection3.html">Subsection 3</a></li>
+                                    <li><a href="./subsection1.html">Aportes por Año </a></li>
+
+                                    <li><a href="./subsection2.html">Aportes por Institucion</a></li>
+                                   
+                                    <li><a href="./subsection3.html">Aportes por Sede</a></li>
+
                                 </ul>
                             </li>
                            
-                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="./contact.html">Contacto</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -89,20 +112,48 @@
 
   <main id="main">
 
-    <section class="section pb-5">
+    <section class="section pb-5"style="text-align:center">
       <div class="container">
-
-        <div class="row mb-5 align-items-end">
-          <div class="col-md-6" data-aos="fade-up">
-            <h2>Contact</h2>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut
-              officiis explicabo inventore.
+            <br>
+            <h2>Contacto</h2>
+            <br>
+            <p class="">Si perteneces a una entidad a la cual podamos colaborar con nuestros aportes solidarios, escribinos !
             </p>
-          </div>
-
-        </div>
-
+         
+            <div class="" data-aos="fade-up">
+              <ul class="list-unstyled">
+                <br>
+                <li class="mb-3">
+                  <strong class="d-block mb-1">Dirección</strong>
+                  <span>Lamadrid 470, Rosario, Santa Fe, Argentina</span>
+                </li>
+                <br>
+                <li class="mb-3">
+                  <strong class="d-block mb-1">Teléfono</strong>
+                  <span>+54 9 11 52190757 </span>
+                </li>
+                <br>
+                <li class="mb-3">
+                  <strong class="d-block mb-1">Email</strong>
+                  <span><a href="mailto:aportecomunitario@tecso.com" id="mail">aportecomunitario@tecso.com</a></span>
+                </li>
+                <br>
+                <li class="mb-3">
+                  <strong class="d-block mb-1">Redes sociales</strong>
+                  <div class=" social text-md-center">
+                    <a href="https://twitter.com/tecsocoop"><span id="logos" class="icofont-twitter icofont-2x"></span></a>
+                    <a href="http://www.facebook.com/tecsocoop"><span id="logos" class="icofont-facebook icofont-2x"></span></a>
+                    <a href="http://www.instagram.com/tecsocoop/"><span id="logos" class="icofont-instagram icofont-2x"></span></a>
+                    <a href="http://www.linkedin.com/company/tecso/"><span id="logos" class="icofont-linkedin icofont-2x"></span></a>
+                  </div>
+                </li>
+                <br>
+              </ul>
+            </div>
+       
+<!--
         <div class="row">
+          
           <div class="col-md-6 mb-5 mb-md-0" data-aos="fade-up">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
@@ -118,11 +169,7 @@
                   <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validate"></div>
                 </div>
-                <div class="col-md-12 form-group">
-                  <label for="name">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validate"></div>
-                </div>
+                
                 <div class="col-md-12 form-group">
                   <label for="name">Message</label>
                   <textarea class="form-control" name="message" cols="30" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
@@ -143,25 +190,10 @@
             </form>
 
           </div>
+          -->
+        
 
-          <div class="col-md-4 ml-auto order-2" data-aos="fade-up">
-            <ul class="list-unstyled">
-              <li class="mb-3">
-                <strong class="d-block mb-1">Address</strong>
-                <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
-              </li>
-              <li class="mb-3">
-                <strong class="d-block mb-1">Phone</strong>
-                <span>+1 232 3235 324</span>
-              </li>
-              <li class="mb-3">
-                <strong class="d-block mb-1">Email</strong>
-                <span>youremail@domain.com</span>
-              </li>
-            </ul>
-          </div>
-
-        </div>
+       <!-- </div>-->
 
       </div>
 
@@ -171,27 +203,29 @@
 
   <!-- ======= Footer ======= -->
   <footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
+    <div class="container" style="text-align:center">
+     <!-- <div class="row"> -->
+        <!--
+          <div class="col-sm-6">
           <p class="mb-1">&copy; Copyright MyPortfolio. All Rights Reserved</p>
           <div class="credits">
-            <!--
+            
             All the links in the footer should remain intact.
             You can delete the links only if you purchased the pro version.
             Licensing information: https://bootstrapmade.com/license/
             Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
-          -->
+          
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
+        
         </div>
-        <div class="col-sm-6 social text-md-right">
-          <a href="#"><span class="icofont-twitter"></span></a>
-          <a href="#"><span class="icofont-facebook"></span></a>
-          <a href="#"><span class="icofont-dribbble"></span></a>
-          <a href="#"><span class="icofont-behance"></span></a>
+        <div class=" social text-md-center">
+          <a href="https://twitter.com/tecsocoop"><span id="logos" class="icofont-twitter icofont-2x"></span></a>
+          <a href="http://www.facebook.com/tecsocoop"><span id="logos" class="icofont-facebook icofont-2x"></span></a>
+          <a href="http://www.instagram.com/tecsocoop/"><span id="logos" class="icofont-instagram icofont-2x"></span></a>
+          <a href="http://www.linkedin.com/company/tecso/"><span id="logos" class="icofont-linkedin icofont-2x"></span></a>
         </div>
-      </div>
+      </div> -->
     </div>
   </footer>
 

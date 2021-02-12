@@ -30,7 +30,7 @@
 html,
 body {
   height: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -43,7 +43,7 @@ h6 {
   margin: 0;
   color: #11111194;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -72,7 +72,7 @@ h6 {
 
 p {
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #111111;
   font-weight: 400;
   line-height: 28px;
@@ -124,7 +124,7 @@ ol {
   line-height: 60px;
   font-weight: 700;
   font-style: italic;
-  font-family: "Playfair Display", serif;
+  font-family: 'Raleway', serif;
 }
 
 .set-bg {
@@ -476,7 +476,7 @@ ol {
   position: absolute;
   left: 0;
   top: 82px;
-  width: 150px;
+  width: 210px;
   background: #111111;
   text-align: left;
   padding: 5px 0;
@@ -495,7 +495,8 @@ ol {
   font-size: 14px;
   color: #ffffff;
   font-weight: 400;
-  padding: 5px 20px;
+  padding: 5px 10px;
+  text-align: center;
   text-transform: capitalize;
 }
 .header__menu ul li .dropdown li a:after {
@@ -506,7 +507,7 @@ ol {
   color: #ffffff;
   display: block;
   font-weight: 600;
-  padding: 20px 35px 18px;
+  padding: 20px 50px 18px;
   letter-spacing: 1px;
   -webkit-transition: all, 0.3s;
   -o-transition: all, 0.3s;
@@ -1299,7 +1300,7 @@ ol {
   color: #000000;
   font-weight: 700;
   font-style: italic;
-  font-family: "Playfair Display", serif;
+  font-family: 'Raleway', serif;
 }
 
 .breadcrumb__links {
@@ -2108,7 +2109,7 @@ ol {
   margin-bottom: 0;
 }
 .checkout__total__products li samp {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
@@ -2408,7 +2409,7 @@ ol {
   padding-top: 42px;
 }
 .blog__item__text h2 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Raleway', serif;
   color: #111111;
   font-style: italic;
   margin-bottom: 20px;
@@ -2631,7 +2632,7 @@ ol {
   color: #111111;
   line-height: 26px;
   font-style: italic;
-  font-family: "Playfair Display", serif;
+  font-family: 'Raleway', serif;
   margin-bottom: 8px;
 }
 .blog__sidebar__recent__item__text span {
@@ -2670,7 +2671,7 @@ ol {
 }
 .blog__hero__text h2 {
   font-size: 46px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Raleway', serif;
   font-weight: 700;
   font-style: italic;
   color: #111111;
@@ -3091,7 +3092,7 @@ ol {
   color: #111111;
   font-weight: 700;
   font-style: italic;
-  font-family: "Playfair Display", serif;
+  font-family: 'Raleway', serif;
   margin-bottom: 20px;
 }
 .contact__text ul {
